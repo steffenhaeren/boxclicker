@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BOXCLICKER</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/stil.css" />
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+		<script src="script/script.js"></script>
+	</head>
+	
+	<body>
+	<div class="row">
+		<div class="column1">
+			<p class="noSelect" id="title">BOXCLICKER</p>
+			<p class="noSelect" id="clock"><label id="minutes">00</label>:<label id="seconds">00</label></p>
+			<div class="noSelect" id="start" onclick="start()">START</div>
+			<div class="noSelect" id="end"></div>
+		</div>
+		
+		<div class="column2">
+			<canvas class="noSelect" id="tegneflate" width="300" height="300" onclick="oppstart()"></canvas>
+		</div>
+		
+		<div class="column3">
+			<p class="noSelect" id="shop">SHOP</p>
+			<div class="noSelect" id="doubleclick" onclick="buyDoubleclick()">DOUBLECLICK [100]</div>
+			<!--<div class="noSelect" id="autoclick" onclick="buyAutoclick()">AUTOCLICK [200]</div>-->
+			<div class="noSelect" id="quadruple" onclick="buyQuadrupleclick()">QUADRUPLECLICK [250]</div>
+			<div class="noSelect" id="xclick" onclick="buy10xclick()">10X CLICK [1000]</div>
+			<div class="noSelect" id="sunglasses" onclick="buySunglasses()">SUNGLASSES [2000]</div>
+			<div class="noSelect" id="notEnough"></div>
+		</div>
+	</div><p class="noSelect" id="penger">0</p>
+	</body>
+</html>

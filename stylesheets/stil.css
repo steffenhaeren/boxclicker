@@ -1,0 +1,114 @@
+#tegneflate{
+	background-color: #FFFFFF;
+	margin-top: 200px;
+	margin-left: 50px;
+}
+
+					
+body{
+	background-color: #000000;
+	font-family: 'Press Start 2P', cursive;
+}
+			
+p{
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+.column1 {
+    float: left;
+    width: 30%;
+	height: 1px;
+	margin-left: 50px;
+}
+
+.column2 {
+    float: left;
+    width: 35%;
+	height: 1px;
+}
+
+.column3 {
+    float: left;
+    width: 30%;
+	height: 1px;
+	color: #FFFFFF;
+	font-size: 40px;
+}
+
+
+#start{
+	color: #FFFFFF;
+	font-size: 50px;
+	margin-top: 100px;
+}
+
+#end{
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#sunglasses{
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#doubleclick{
+	font-size: 20px;
+	margin-top: 23px;
+	margin-left: 10px;
+}
+
+#quadruple{
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#autoclick{
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#xclick{
+	font-size: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#notEnough{
+	color: #FFFFFF;
+	margin-top: 70px;
+	font-size: 50px;
+	margin-left: 10px;
+}
+
+#title{
+	font-size: 20px;
+}
+
+#penger{
+	margin-top: 525px;
+	margin-left: 100px;
+}
+
+#shop{
+	margin-left: 10px;
+}
+
+.noSelect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
